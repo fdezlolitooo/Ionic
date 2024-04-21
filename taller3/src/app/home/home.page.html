@@ -1,0 +1,50 @@
+<!-- Encabezado de la página -->
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Bienvenido a nuestra aplicación <!-- Título del encabezado -->
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<!-- Contenido principal de la página -->
+<ion-content class="ion-padding">
+  <!-- Contenedor principal -->
+  <div class="container">
+    <!-- Fila para centrar contenido -->
+    <div class="row justify-content-center">
+      <!-- Columna para el contenido principal -->
+      <div class="col-md-8">
+        <!-- Tarjeta con sombra -->
+        <div class="card shadow">
+          <div class="card-body">
+            <!-- Título principal -->
+            <h2 class="card-title text-center">¡Bienvenido!</h2>
+            <!-- Texto de la tarjeta -->
+            <p class="card-text">Esta es la página de inicio de nuestra aplicación.</p>
+            <p class="card-text">Aquí puedes encontrar enlaces a diferentes secciones de la aplicación:</p>
+            <!-- Lista de enlaces -->
+            <ul class="list-group">
+              <!-- Enlace a la página de inicio -->
+              <li class="list-group-item">
+                <a routerLink="/inicio" routerDirection="forward" class="btn btn-primary btn-block">Inicio</a>
+              </li>
+              <!-- Enlace a la página de nosotros -->
+              <li class="list-group-item">
+                <a routerLink="/nosotros" routerDirection="forward" class="btn btn-primary btn-block">Nosotros</a>
+              </li>
+              <!-- Enlace a la página de contáctenos -->
+              <li class="list-group-item">
+                <a routerLink="/contactenos" routerDirection="forward" class="btn btn-primary btn-block">Contáctenos</a>
+              </li>
+              <!-- Enlace a la página de publicaciones -->
+              <li class="list-group-item">
+                <a routerLink="/publicaciones" routerDirection="forward" class="btn btn-primary btn-block">Publicaciones</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</ion-content>
